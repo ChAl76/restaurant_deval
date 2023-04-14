@@ -74,9 +74,21 @@
 
 @media screen and (max-width: 650px) {
   .app__specialMenu-menu_img {
-    width: 100%;
+    width: 370px;
+  }
+  .app__specialMenu-menu_img img {
+    height: 600px;
   }
   .app__specialMenu-menu_heading {
     font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .app__specialMenu-menu_img {
+    width: 100%;
+  }
+  .app__specialMenu-menu_img img {
+    height: 100%;
   }
 }
