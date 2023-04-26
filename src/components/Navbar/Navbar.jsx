@@ -30,11 +30,11 @@ const [toggleMenu, SetToggleMenu] = useState(false);
           <MdOutlineRestaurantMenu fontSize={27} 
           className="overlay__close" onClick={() => SetToggleMenu(false)}/>
           <ul className="app__navbar-smallscreen_links">
-            <li className="p__opensans"><a href="#home">Home</a></li>
-            <li className="p__opensans"><a href="#about ">About</a></li>
-            <li className="p__opensans"><a href="#menu">Menu</a></li>
-            <li className="p__opensans"><a href="#awards">Awards</a></li>
-            <li className="p__opensans"><a href="#contact">Contact</a></li>
+            <li className="p__opensans"><a href="#home" onClick={() => SetToggleMenu(false)}>Home</a></li>
+            <li className="p__opensans"><a href="#about" onClick={() => SetToggleMenu(false)}>About</a></li>
+            <li className="p__opensans"><a href="#menu" onClick={() => SetToggleMenu(false)}>Menu</a></li>
+            <li className="p__opensans"><a href="#awards" onClick={() => SetToggleMenu(false)}>Awards</a></li>
+            <li className="p__opensans"><a href="#contact" onClick={() => SetToggleMenu(false)}>Contact</a></li>
           </ul>
         </div>)}
     </div>
